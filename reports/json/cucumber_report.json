@@ -1,10 +1,10 @@
 [
   {
-    "description": "  As a customer\n  I want to be able to start the advanced signature creation\n  So that I can send a document to be signed by an advanced signature",
+    "description": "  As a customer\n  I want to access to HTML form test\n  So that I can complete all fields and submit",
     "keyword": "Feature",
-    "name": "Advanced signature",
+    "name": "Accessing HTML form test",
     "line": 2,
-    "id": "advanced-signature",
+    "id": "accessing-html-form-test",
     "tags": [
       {
         "name": "@automation_training",
@@ -14,18 +14,18 @@
     "uri": "e2e/features/html_form_example.feature",
     "elements": [
       {
-        "id": "advanced-signature;",
+        "id": "accessing-html-form-test;complete-fields-in-html-form",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "",
+        "line": 16,
+        "name": "Complete fields in HTML form",
         "tags": [
           {
             "name": "@automation_training",
             "line": 1
           },
           {
-            "name": "@test-1",
-            "line": 10
+            "name": "@test-2",
+            "line": 15
           }
         ],
         "type": "scenario",
@@ -36,38 +36,141 @@
             "line": 8,
             "name": "I am on the index page",
             "match": {
-              "location": "typeScript/features/step_definitions/index_steps.js:15"
+              "location": "typeScript/features/step_definitions/index_steps.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 435000000
+              "duration": 579000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
+            "line": 9,
             "name": "I click on \"HTML form example\" option",
             "match": {
-              "location": "typeScript/features/step_definitions/index_steps.js:19"
+              "location": "typeScript/features/step_definitions/index_steps.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 715000000
+              "duration": 465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I enter \"Sergi Olmos\" in \"username\" field",
+            "match": {
+              "location": "typeScript/features/step_definitions/html_form_test_steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I enter \"Helouda\" in \"password\" field",
+            "match": {
+              "location": "typeScript/features/step_definitions/html_form_test_steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I enter \"Test Automation\" in \"textarea comment\" field",
+            "match": {
+              "location": "typeScript/features/step_definitions/html_form_test_steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click on first \"checkbox\"",
+            "match": {
+              "location": "typeScript/features/step_definitions/html_form_test_steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on second \"radio\"",
+            "match": {
+              "location": "typeScript/features/step_definitions/html_form_test_steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I select the Third item in \"multiple\"",
+            "match": {
+              "location": "typeScript/features/step_definitions/html_form_test_steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I select a first item in \"dropdown\"",
+            "match": {
+              "location": "typeScript/features/step_definitions/html_form_test_steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on \"Submit\" button",
+            "match": {
+              "location": "typeScript/features/step_definitions/html_form_test_steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
-            "name": "I validate the page title is \"Basic HTML Form Example lalala\"",
+            "line": 25,
+            "name": "\"You submitted a form\" message is displayed",
             "match": {
-              "location": "typeScript/features/step_definitions/html_form_test_steps.js:20"
+              "location": "typeScript/features/step_definitions/from_processor_steps.js:17"
             },
             "result": {
-              "status": "failed",
-              "duration": 90000000,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -Basic HTML Form Example\n    +Basic HTML Form Example lalala\n\n    at Object.<anonymous> (/Users/agustinabosso/Desktop/automation-training/typeScript/features/step_definitions/html_form_test_steps.js:21:19)\n    at Generator.next (<anonymous>)\n    at fulfilled (/Users/agustinabosso/Desktop/automation-training/typeScript/features/step_definitions/html_form_test_steps.js:4:58)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+              "status": "passed",
+              "duration": 118000000
             }
           },
           {
@@ -77,8 +180,7 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 6000000
+              "status": "passed"
             }
           }
         ]

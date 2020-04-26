@@ -270,8 +270,8 @@ pre {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">automation-training</div>
           <div class="label-container">
-            <span class="label label-success" title=scenarios>Passed: 0</span>
-            <span class="label label-danger" title=scenarios>Failed: 1</span>
+            <span class="label label-success" title=scenarios>Passed: 1</span>
+            <span class="label label-danger" title=scenarios>Failed: 0</span>
           </div>
         </div>
       </div>
@@ -279,7 +279,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Mon Apr 13 2020 19:10:50 GMT+0200 (CEST)</div>
+      <div class="generated-on">Sun Apr 26 2020 17:24:04 GMT+0200 (CEST)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -304,11 +304,11 @@ pre {
                     <a data-toggle="collapse" href="#collapseFeatureautomation_training0">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
-                        <b>Feature:</b>Advanced signature
+                        <b>Feature:</b>Accessing HTML form test
                         <span class="label-container">
+              <span class="label label-success"
+                                                         title="1 Scenarios Passed">1</span>
               
-              <span class="label label-danger"
-                                                         title="1 Scenarios Failed">1</span>
               
               
               
@@ -320,7 +320,7 @@ pre {
             <div id="collapseFeatureautomation_training0" class="panel-collapse collapse">
                 <div class="panel-body">
                     
-                    <div class="description">  As a customer<br/>  I want to be able to start the advanced signature creation<br/>  So that I can send a document to be signed by an advanced signature</div>
+                    <div class="description">  As a customer<br/>  I want to access to HTML form test<br/>  So that I can complete all fields and submit</div>
                     
                     
                     <div class="panel panel-default">
@@ -328,7 +328,7 @@ pre {
                             <h4 class="panel-title">
                                 
                                 
-                                <div class="tags"> <span class="tag"> @test-1</span>
+                                <div class="tags"> <span class="tag"> @test-2</span>
                                     
                                 </div>
                                 
@@ -336,20 +336,19 @@ pre {
                                    href="#collapseScenarioautomation_training0_0">
                                     <div>
 
-                                        <div style="padding-right: 50px">
+                                        <div style="padding-right: 30px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b>
+                                            <b>Scenario:</b>Complete fields in HTML form
                                         </div>
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="2 Steps Passed">2</span>
+                                                               title="11 Steps Passed">11</span>
                               
                               
                               
-                              <span class="label label-danger"
-                                                               title="1 Steps Failed">1</span>
+                              
                               
                             </span>
                                         </div>
@@ -377,7 +376,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               435ms
+                               579ms
                               </span>
                             
                          
@@ -413,7 +412,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               715ms
+                               465ms
                               </span>
                             
                          
@@ -439,17 +438,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-danger" title="Failed"><i
-                                            class="glyphicon glyphicon-remove"></i></span>
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
                                     
                                     
                                     <span class="text">
-                        <span class="keyword highlight">Then </span>
-                          <span> I validate the page title is &quot;Basic HTML Form Example lalala&quot;</span>
+                        <span class="keyword highlight">When </span>
+                          <span> I enter &quot;Sergi Olmos&quot; in &quot;username&quot; field</span>
                             
                           
                               <span class="step-duration">
-                               90ms
+                               139ms
                               </span>
                             
                          
@@ -460,64 +459,292 @@ pre {
                                 
 
                                     
-                                    <a href="#error0_02"
-                                       data-toggle="collapse" class="toggle">Show Error +</a>
-                                    <div id="error0_02"
-                                         class="collapse">
-                                        <pre class="info show-modal"
-                                             data-toggle="modal"
-                                             style="cursor: pointer"
-                                             data-target="#error-modal-0_02">
-                                            <br> AssertionError
-    + expected - actual
 
-    -Basic HTML Form Example
-    +Basic HTML Form Example lalala
+                                    
 
-    at Object.(anonymous) (/Users/agustinabosso/Desktop/automation-training/typeScript/features/step_definitions/html_form_test_steps.js:21:19)
-    at Generator.next ((anonymous))
-    at fulfilled (/Users/agustinabosso/Desktop/automation-training/typeScript/features/step_definitions/html_form_test_steps.js:4:58)
-    at (anonymous)
-    at process._tickCallback (internal/process/next_tick.js:188:7)</pre>
-                                    </div>
+                                    
 
-                                <div class="modal fade" id="error-modal-0_02" tabindex="-1" role="dialog"
-                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                                </button>
-                                                <h4 class="modal-title" id="error-modal-title">
-                                                    Error
-                                                </h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h5>
-                                                    <pre><br>AssertionError
-    + expected - actual
-
-    -Basic HTML Form Example
-    +Basic HTML Form Example lalala
-
-    at Object.(anonymous) (/Users/agustinabosso/Desktop/automation-training/typeScript/features/step_definitions/html_form_test_steps.js:21:19)
-    at Generator.next ((anonymous))
-    at fulfilled (/Users/agustinabosso/Desktop/automation-training/typeScript/features/step_definitions/html_form_test_steps.js:4:58)
-    at (anonymous)
-    at process._tickCallback (internal/process/next_tick.js:188:7)</pre>
-                                                </h5>
-                                            </div>
-
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                                    Close
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> I enter &quot;Helouda&quot; in &quot;password&quot; field</span>
+                            
+                          
+                              <span class="step-duration">
+                               95ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
 
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> I enter &quot;Test Automation&quot; in &quot;textarea comment&quot; field</span>
+                            
+                          
+                              <span class="step-duration">
+                               109ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> I click on first &quot;checkbox&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               140ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> I click on second &quot;radio&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               149ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> I select the Third item in &quot;multiple&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               113ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> I select a first item in &quot;dropdown&quot;</span>
+                            
+                          
+                              <span class="step-duration">
+                               98ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> I click on &quot;Submit&quot; button</span>
+                            
+                          
+                              <span class="step-duration">
+                               243ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> &quot;You submitted a form&quot; message is displayed</span>
+                            
+                          
+                              <span class="step-duration">
+                               118ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
 
                                     
 
@@ -568,8 +795,8 @@ pre {
         google.load("visualization", "1", {packages: ["corechart"]});
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Features",
-                                                            "failed" : 1,
-                                                            "passed" : 0,
+                                                            "failed" : 0,
+                                                            "passed" : 1,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
@@ -578,8 +805,8 @@ pre {
                                             });
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
-                                                            "failed" : 1,
-                                                            "passed" : 0,
+                                                            "failed" : 0,
+                                                            "passed" : 1,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
